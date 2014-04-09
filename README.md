@@ -1,16 +1,18 @@
-# node-recaptcha
+# node-recaptcha-clone
 
-node-recaptcha renders and verifies [Recaptcha](http://www.google.com/recaptcha) captchas.
+node-recaptcha-clone renders and verifies [Recaptcha](http://www.google.com/recaptcha) captchas.
+
+It's [node-recaptcha](https://github.com/mirhampt/node-recaptcha) clone.
 
 ## Installation
 
 Via git:
 
-    $ git clone git://github.com/mirhampt/node-recaptcha.git ~/.node_libraries/node-recaptcha
+    $ git clone git://github.com/mstorm/node-recaptcha-clone.git ~/.node_libraries/node-recaptcha-clone
 
 Via npm:
 
-    $ npm install recaptcha
+    $ npm install recaptcha-clone
 
 ## Setup
 
@@ -42,7 +44,7 @@ structure like the following before the form in your document:
 app.js:
 
     var express  = require('express'),
-        Recaptcha = require('recaptcha').Recaptcha;
+        Recaptcha = require('recaptcha-clone').Recaptcha;
 
     var PUBLIC_KEY  = 'YOUR_PUBLIC_KEY',
         PRIVATE_KEY = 'YOUR_PRIVATE_KEY';
